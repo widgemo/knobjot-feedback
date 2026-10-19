@@ -1,6 +1,6 @@
-# ShaggySheets feedback
+# KnobJot feedback
 
-This public repository is where people who use **ShaggySheets** tell us what is broken, what they would like, and what they
+This public repository is where people who use **KnobJot** tell us what is broken, what they would like, and what they
 need help with. Nothing here is the app's code.
 
 - **Report a problem**, **Suggest an improvement**, **Ask a question**: open a new issue and pick the form. The app's
