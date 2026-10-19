@@ -1,0 +1,17 @@
+name: Ask a question
+description: How do I...?
+title: "Question: "
+labels: ["question"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: What would you like to know?
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Technical details
+      description: Filled in by the app. You can leave it as it is.
+      render: text
