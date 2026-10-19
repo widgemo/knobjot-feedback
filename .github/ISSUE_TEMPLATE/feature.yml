@@ -1,0 +1,22 @@
+name: Suggest an improvement
+description: An idea that would make ShaggySheets work better for you.
+title: "Idea: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like to be able to do?
+      description: Describe the moment in your session where it would help, not only the feature.
+    validations:
+      required: true
+  - type: textarea
+    id: today
+    attributes:
+      label: How do you do it today?
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Technical details
+      description: Filled in by the app. You can leave it as it is.
+      render: text
