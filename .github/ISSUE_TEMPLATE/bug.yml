@@ -1,0 +1,33 @@
+name: Report a problem
+description: Something is broken, wrong or confusing.
+title: "Problem: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what you saw instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to repeat it
+      placeholder: "1. Open a song\n2. Tap Export\n3. ..."
+  - type: dropdown
+    id: device
+    attributes:
+      label: Where did it happen?
+      options:
+        - Desktop or laptop
+        - Tablet
+        - Phone
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Technical details
+      description: Filled in by the app (version, page, browser, screen). You can leave it as it is.
+      render: text
